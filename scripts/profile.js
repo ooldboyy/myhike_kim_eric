@@ -41,11 +41,11 @@ function editUserInfo() {
 }
 
 function saveUserInfo() {
-    
+
     // get entered information by user
     userName = document.getElementById("nameInput").value;
     userSchool = document.getElementById("schoolInput").value;
-    userCity = document.getElementById("schoolInput").value;
+    userCity = document.getElementById("cityInput").value;
 
     // update the user document in firestore
     currentUser.update({

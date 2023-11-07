@@ -26,7 +26,7 @@ function saveHikeDocumentIDAndRedirect() {
     console.log(ID);
 
     localStorage.setItem('hikeID', ID)
-    // window.location.href = "review.html";
+    window.location.href = "review.html";
 }
 
 function populateReviews() {
